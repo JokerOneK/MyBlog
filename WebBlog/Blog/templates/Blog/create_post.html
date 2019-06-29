@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<form class="posting" action="{% url 'Blog:create' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }} <!--для стиля возьми в див класс-->
+    <input type="submit" value="Save" class="btn btn-dark">
+</form>
+{% endblock %}

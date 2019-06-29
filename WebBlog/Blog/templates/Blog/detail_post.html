@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+
+{% block content %}
+    <h1>{{ post.theme }}</h1>
+    <li>{{ post.post_text }}</li>
+    <li>{{ post.pub_date }}</li>
+    <li>Author: {{ post.author }}</li>
+
+    <form action="{% url 'Blog:delete' pk=post.pk %}">
+        <button type="submit" value="Confirm" class="btn btn-dark">Delete</button>
+    </form>
+
+    <form action="{% url 'Blog:update' pk=post.pk %}">
+        <button type="submit" value="Confirm" class="btn btn-dark">Update</button>
+    </form>
+{% endblock %}
