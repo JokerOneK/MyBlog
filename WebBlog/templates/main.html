@@ -4,44 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>WebBlog</title>
-        <!--<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-                <div class="auth">
-                    {% if user.is_authenticated %}
-
-                    <li>User:{{user.get_username}}</li>
-
-
-                    <div class="child"><form class="logout-link" action="{% url 'accounts:logout' %}" method="post">
-
-                            {% csrf_token %}
-
-                            <button type="submit" class="btn btn-dark">Logout</button>
-                            </form>
-
-                    </div>
-                    {% else %}
-
-                    <div class="child">
-                        <form class="login link" action="{% url 'accounts:login' %}?next={{request.path}}">
-                            <button type="submit" class="btn btn-dark">
-                                Login
-                            </button>
-                        </form>
-                    </div>
-                    <div class="child">
-                        <form class="signup" action="{% url 'accounts:signup' %}?next={{request.path}}">
-                            <button type="submit" class="btn btn-dark">
-                                Signup
-                            </button>
-                        </form>
-                    </div>
-                    {% endif %}
-                </div>
     <nav class="navbar navbar-expand-lg navbar-dark  bg-dark ">
-        <a class="navbar-brand" href="{% url 'Blog:index' %}">Pos</a>
+        <a class="navbar-brand" href="{% url 'Blog:index' %}">Posts</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,9 +18,43 @@
                     <a class="nav-item nav-link active" href="{% url 'accounts:users' %}">Authors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-item nav-link active" href="{% url 'Blog:about' %}">About</a>
+                    <form class="test" action="{% url 'Blog:about' %}">
+                        <button type="submit" class="btn btn-dark">
+                            About
+                        </button>
+                    </form>
                 </li>
+
+                {% if user.is_authenticated %}
+
+                <li>User:{{user.get_username}}</li>
+                <li>
+                    <form class="logout-link" action="{% url 'accounts:logout' %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-dark">Logout</button>
+                    </form>
+                </li>
+
+                {% else %}
+
+                <li>
+                    <form class="login link" action="{% url 'accounts:login' %}?next={{request.path}}">
+                            <button type="submit" class="btn btn-dark">
+                                Login
+                            </button>
+                    </form>
+                </li>
+                <li>
+                    <form class="signup" action="{% url 'accounts:signup' %}?next={{request.path}}">
+                            <button type="submit" class="btn btn-dark">
+                                Signup
+                            </button>
+                    </form>
+                </li>
+
+                {% endif %}
             </ul>
+
         </div>
 	</nav>
         <div class="main">
