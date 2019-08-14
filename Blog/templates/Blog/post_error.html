@@ -1,0 +1,8 @@
+{% extends 'main.html' %}
+
+{% block content %}
+    <h2>Sorry, that is not your post</h2>
+    <form action="{% url 'Blog:index' %}">
+        <button type="submit" value="Confirm" class="btn btn-dark">Come back</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,46 @@
+body {
+    background-image: url(/static/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 160px;
+    background-color: #DCDCDC;
+    padding-left: 20px;
+}
+
+.auth{
+    margin-top: 10px;
+    margin-left: 1250px;
+    list-style: none;
+}
+
+div.auth div {
+    display: inline-block;
+    width: 5em;
+}
+
+
+ul.nav{
+    margin-left: 220px;
+    margin-top: 40px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+ul.nav a {
+    display: inline-block;
+    width: 18em;
+    padding:10px;
+    background-color: #f4f4f4;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+ul.nav a:hover {
+    background-color: #333;
+    color: #f4f4f4;
+}
