@@ -4,7 +4,7 @@
     <h1 align="center">{{ post.theme }}</h1>
     <p align="left">{{ post.post_text }}</p>
     <li>{{ post.pub_date }}</li>
-    <li>Author: {{ post.author }}</li>
+    <li>Authors: {{ post.author }}</li>
     <br><br>
     <form action="{% url 'Blog:delete' pk=post.pk %}">
         <button type="submit" value="Confirm" class="btn btn-dark">Delete</button>
