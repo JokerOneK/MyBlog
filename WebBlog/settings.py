@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '#7467x@yxxb^=swq&lsdiu74qhx%n0
 
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['radiant-fortress-36838.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['altayblog.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
