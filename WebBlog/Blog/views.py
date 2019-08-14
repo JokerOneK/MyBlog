@@ -1,13 +1,9 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import redirect
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin, AccessMixin
-from django.utils import timezone
 from django.views import generic
 from django.urls import reverse_lazy
-from django.http import Http404
 
 from .models import Post
-
-# cписок объектов
 
 
 class IndexView(generic.ListView):

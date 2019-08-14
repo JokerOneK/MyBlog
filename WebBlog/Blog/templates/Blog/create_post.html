@@ -1,6 +1,7 @@
 {% extends 'main.html' %}
 
 {% block content %}
+<br>
 <form class="posting" action="{% url 'Blog:create' %}" method="post">
     {% csrf_token %}
     {{ form.as_p }} <!--для стиля возьми в див класс-->
