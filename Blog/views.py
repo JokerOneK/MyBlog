@@ -2,14 +2,32 @@ from django.shortcuts import redirect
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin, AccessMixin
 from django.views import generic
 from django.urls import reverse_lazy
-
+from .serializers import PostSerializer
 from .models import Post
+from rest_framework import renderers
+from rest_framework.decorators import action
+from rest_framework.response import Response
+from rest_framework import generics
+
 
 
 class IndexView(generic.ListView):
     queryset = Post.objects.all()
     template_name = 'Blog/index.html'
     context_object_name = 'latest_post_list'
+
+    @action(detail=True, renderer_classes=[renderers.StaticHTMLRenderer])
+    def highlight(self, request, *args, **kwargs):
+        Blog = self.get_object()
+        return Response(Blog.highlighted)
+
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
+
+
+class PostList(generics.ListAPIView):
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer
 
 
 class DetailView(generic.DetailView):

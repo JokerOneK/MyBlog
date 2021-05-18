@@ -12,6 +12,7 @@ class Post(models.Model):
     pub_date = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(
         User,
+        related_name='posts',
         on_delete=models.CASCADE,
     )
 

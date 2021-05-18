@@ -15,9 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from Blog import views
+
+router = DefaultRouter()
+# router.register(r'Blog', views.IndexView, basename='Blog')
 
 urlpatterns = [
     path('', include('Blog.urls', namespace="Blog")),
     path('admin/', admin.site.urls),
     path(r'accounts/', include('accounts.urls')),
+    path('', include(router.urls)),
+    path('api/', views.PostList.as_view(), name="instances"),
 ]

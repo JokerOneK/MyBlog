@@ -33,9 +33,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebBlog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebBlog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -77,6 +85,7 @@
   <component name="ProjectId" id="1q7VWliarrGbb7gHnL7f08OyAVu" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
