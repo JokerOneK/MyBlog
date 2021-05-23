@@ -33,74 +33,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="Added static files">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/create_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/create_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/detail_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/detail_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/css/plugin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/css/syntax/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/css/syntax/page_white_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/css/syntax/printer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/css/syntax/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/css/syntax/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/Simple-Line-Icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/Simple-Line-Icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/Simple-Line-Icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/bg/pattern-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/blog/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/blog/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/blog/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/blog/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/blog/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/blog/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/blog/author.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/owl-carousel/grabbing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/pic/my-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/portfolio/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/portfolio/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/portfolio/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/portfolio/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/portfolio/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/portfolio/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/testimonial/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/testimonial/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/images/testimonial/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/clipboard.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/js/syntax/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebBlog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/Blog/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +66,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="staticfiles" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
