@@ -13,7 +13,7 @@ from rest_framework import generics
 
 class IndexView(generic.ListView):
     queryset = Post.objects.all()
-    template_name = 'Blog/index.html'
+    template_name = 'blogstatic/index.html'
     context_object_name = 'latest_post_list'
 
     @action(detail=True, renderer_classes=[renderers.StaticHTMLRenderer])
@@ -37,12 +37,12 @@ class DetailView(generic.DetailView):
 
 
 class AboutView(generic.TemplateView):
-    template_name = 'Blog/about.html'
+    template_name = 'blogstatic/about.html'
 
 
 class CreateView(LoginRequiredMixin, generic.CreateView):
     model = Post
-    template_name = 'Blog/create_post.html'
+    template_name = 'blogstatic/work.html'
     fields = ['theme',
               'post_text',
               ]
