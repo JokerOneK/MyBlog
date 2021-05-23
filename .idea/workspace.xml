@@ -32,10 +32,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="Added serializer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="Updated static files for new html templates." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,12 +47,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="auth" />
-      </map>
-    </option>
     <favorite-branches>
       <branch-storage>
         <map>
@@ -69,6 +60,20 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="staticfiles" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="714" />
@@ -94,6 +99,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Алтай\PycharmProjects\MyBlog\Blog\templates\blogstatic" />
+      <recent name="C:\Users\Алтай\PycharmProjects\MyBlog\templates\Blog" />
+      <recent name="C:\Users\Алтай\PycharmProjects\MyBlog\templates" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -186,7 +194,42 @@
       <option name="project" value="LOCAL" />
       <updated>1621347315508</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added serializer">
+      <created>1621411106121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621411106121</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added static files">
+      <created>1621434411836</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1621434411836</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added static files">
+      <created>1621434426418</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1621434426418</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated static files for new html templates.">
+      <created>1621778023627</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621778023627</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated static files for new html templates.">
+      <created>1621787841258</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621787841258</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +265,8 @@
     <MESSAGE value="Production version" />
     <MESSAGE value="Heroku version" />
     <MESSAGE value="Added serializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added serializer" />
+    <MESSAGE value="Added static files" />
+    <MESSAGE value="Updated static files for new html templates." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated static files for new html templates." />
   </component>
 </project>
