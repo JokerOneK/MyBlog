@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
-from django.contrib.auth import login, logout
+from django.contrib.auth import login, authenticate
+from django.contrib.auth import logout
 from django.views import generic
 from django.contrib.auth.models import User
 
@@ -26,13 +27,17 @@ def login_view(request):
             return redirect('Blog:index')
     else:
         form = AuthenticationForm()
-    return render(request, 'accounts/login.html', {'form':form})
+    return render(request, 'accounts/login.html', {'form': form})
 
 
 def logout_view(request):
     if request.method == "POST":
         logout(request)
         return redirect('Blog:index')
+    else:
+        print("Error")
+        return redirect('Blog:index')
+        # return render(request, 'accounts/logout.html', {})
 
 
 class ListView(generic.ListView):

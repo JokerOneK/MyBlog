@@ -115,10 +115,33 @@
                             
                             <div class="sub-title">
                            		<h2>My Blog</h2>
+
+                                {% if user.is_authenticated %}
+
+                                <i>User:{{ user.get_username }}</i>
+
                                 <a href="{% url 'Blog:create' %}"><i class="icon-plus"></i></a>
+
+<!--                                <a href="{% url 'accounts:logout' %}"><i class="icon-logout"></i></a>-->
+                                <i>
+
+                                    <form class="logout-link" action="{% url 'accounts:logout' %}" method="post">
+
+                                        {% csrf_token %}
+
+                                        <button type="submit" class="btn btn-dark"><i class="icon-logout"></i></button>
+
+                                    </form>
+
+                                </i>
+
+                                {% else %}
                                 <a href="{% url 'accounts:login' %}"><i class="icon-user"></i></a>
+
+                                {% endif %}
+
                              </div>
-                            
+
                             
                             <div class="col-md-12 content-page">
 
@@ -190,7 +213,7 @@
                                <li><a href="{% url 'Blog:about' %}">About</a></li>
                             </ul>
                             
-                          <p>© Copyright 2016 DevBlog. All rights reserved</p>
+                          <p>© Copyright 2021 DevBlog. All rights reserved</p>
 						  
 						  
 						  <!-- UiPasta Credit Start -->
