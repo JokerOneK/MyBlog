@@ -32,17 +32,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="Made logout view">
+    <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="Made signup view">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/detail_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/detail_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/user_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Blog/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/Blog/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623165281254</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Made signup view">
+      <created>1623260339004</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1623260339004</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -339,6 +340,7 @@
     <MESSAGE value="Updated static files for new html templates." />
     <MESSAGE value="Deployed to heroku" />
     <MESSAGE value="Made logout view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made logout view" />
+    <MESSAGE value="Made signup view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made signup view" />
   </component>
 </project>
