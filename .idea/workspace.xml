@@ -32,11 +32,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="Made signup view">
+    <list default="true" id="a61ecabb-59b4-4f1c-85e9-42033401cb6e" name="Default Changelist" comment="Made Update, delete, error, signup views">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/delete_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/delete_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/detail_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/detail_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/post_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/post_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/Blog/update_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/Blog/update_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/blogstatic/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blogstatic/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623260339004</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Made Update, delete, error, signup views">
+      <created>1623929094172</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1623929094172</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -341,6 +356,7 @@
     <MESSAGE value="Deployed to heroku" />
     <MESSAGE value="Made logout view" />
     <MESSAGE value="Made signup view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made signup view" />
+    <MESSAGE value="Made Update, delete, error, signup views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Update, delete, error, signup views" />
   </component>
 </project>
